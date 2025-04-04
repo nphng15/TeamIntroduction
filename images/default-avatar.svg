@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Nền -->
+    <circle cx="100" cy="100" r="100" fill="#3949ab" />
+    
+    <!-- Biểu tượng người -->
+    <circle cx="100" cy="70" r="40" fill="#e8eaf6" />
+    <path d="M100 120 C 60 120, 40 160, 40 200 L 160 200 C 160 160, 140 120, 100 120 Z" fill="#e8eaf6" />
+    
+    <!-- Biểu tượng thêm ảnh -->
+    <circle cx="150" cy="150" r="25" fill="#1a237e" />
+    <rect x="140" y="148" width="20" height="4" fill="#fff" />
+    <rect x="148" y="140" width="4" height="20" fill="#fff" />
+</svg> 
