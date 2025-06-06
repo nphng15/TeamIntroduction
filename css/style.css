@@ -334,6 +334,34 @@ footer {
     background-color: var(--secondary-color);
 }
 
+/* Meeting Button */
+.meeting-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.meeting-link {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: var(--shadow);
+}
+
+.meeting-link:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.meeting-link i {
+    margin-right: 8px;
+}
+
 /* Responsive Styles */
 @media (max-width: 1200px) {
     .members-grid {
